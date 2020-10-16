@@ -11,6 +11,9 @@ import UIKit
     @IBInspectable var iPhoneSE: CGFloat = 0.0 {
         didSet { deviceConstant(.i4Inch,value:iPhoneSE) }
     }
+    @IBInspectable var iPhone6S: CGFloat = 0.0 {
+        didSet { deviceConstant(.i4_7Inch,value:iPhone6S) }
+    }
     @IBInspectable var iPhone8: CGFloat = 0.0 {
         didSet { deviceConstant(.i4_7Inch,value:iPhone8) }
     }
